@@ -1,11 +1,15 @@
 package ApplicationLayer.EventPackage;
-import java.util.Date;
 
 public class WeddingEvent extends Event   {
 
+   /**
+    *
+    */
+   private static final long serialVersionUID = 15L;
+
    @Override
    public String getType() {
-      // TODO Auto-generated method stub
+      
       return "Wedding Event";
    }
    

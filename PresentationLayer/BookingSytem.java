@@ -19,8 +19,10 @@ public class BookingSytem {
       }
       else if (selection == 2)
       {
-
+         AdminMenu menu = new AdminMenu();
+         menu.showBookings();
       }
+      
 
    }
 }
